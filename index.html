@@ -12,51 +12,69 @@
 <body>
   <!--  navigation bar -->
   <header>
-    <h1>Ben Cottrell</h1>
+    <div class="greenBox title">
+      <figure class="logo"><img class ="fillimg" src="./assets/images/FILL THIS WITH IMAGE FILE" alt="portfolio main logo"></figure>
+      <h1>Ben Cottrell</h1>
+    </div>
     <nav>
       <!-- links to different sections in the page -->
-      <a href="#about_me" alt="About Me">About Me</a>
-      <a href="#work" alt="My previous work"> Work</a>
-      <a href="#contact_me" alt="Where to contact me">Contact Me</a>
-      <a href="#resume" alt="My resume">Resume</a>
+      <a class="nav tnav" href="#about_me" alt="About Me">About Me</a>
+      <a class="nav tnav" href="#work" alt="My previous work"> Work</a>
+      <a class="nav tnav" href="#contact_me" alt="Where to contact me">Contact Me</a>
+      <a class="nav tnav" href="#resume" alt="My resume">Resume</a>
     </nav>
   </header>
   
   <!-- subtitle -->
-  <section>
-    <h2>Subtitle</h2>
+  <section class="mediamar">
+    <figure class="banner">
+      <img class="filling torg" src="./assets/images/REPLACE THIS TEXT TOO" alt="laptop banner">
+      <figcaption class="greenBox subtitle br">Web Developer</figcaption>
+    </figure>
+    
   </section>
 
   <main>
     <!-- about me section -->
-    <section about_me>
-        <h1>About Me</h1>
+    <section>
+      <aside id="aboutMe">
+        <h2>About Me</h2>
+      </aside>
+      <article>  
         <p>According to all known laws of aviation, there is no way a bee
             should be able to fly. Its wings are too small to get its fat little body off the ground.
             The bee, of course, flies anyway because bees don't care what humans think is impossible.</p>            
+        </article>    
     </section>
 
     <!-- portfolio section -->
-    <section work>
-        <h1>Work</h1>
-        <a href="https://placeholder.com"><img src="https://via.placeholder.com/800x400"></a>
-        <a href="https://placeholder.com"><img src="https://via.placeholder.com/400x200"></a>
-        <a href="https://placeholder.com"><img src="https://via.placeholder.com/400x200"></a>
-        <a href="https://placeholder.com"><img src="https://via.placeholder.com/400x200"></a>
-        <a href="https://placeholder.com"><img src="https://via.placeholder.com/400x200"></a>
+    <section>
+      <aside id="work">
+        <h2>Work</h2>
+      </aside>
+      <article class="flexwork">
+        <div class="portfolio"><a href="https://placeholder.com"><img class="fillimg" src="https://via.placeholder.com/800x400" alt="pre-work study guide"></a><figcaption class="greenBox subtitle ml">Study Guide</figcaption></div>
+        <div class="portfolio"><a href="https://placeholder.com"><img class="fillimg" src="https://via.placeholder.com/400x200" alt="Horiseon preview"></a><figcaption class="greenBox subtitle ml mml">Horiseon Cleanup</figcaption></div>
+        <div class="portfolio"><a href="https://placeholder.com"><img class="fillimg" src="https://via.placeholder.com/400x200" alt="TBA"></a><figcaption class="greenBox subtitle ml mml">blank</figcaption></div>
+        <div class="portfolio"><a href="https://placeholder.com"><img class="fillimg" src="https://via.placeholder.com/400x200" alt="TBA"></a><figcaption class="greenBox subtitle ml mml">blank</figcaption></div>
+        <div class="portfolio"><a href="https://placeholder.com"><img class="fillimg" src="https://via.placeholder.com/400x200" alt="TBA"></a><figcaption class="greenBox subtitle ml mml">blank</figcaption></div>
+      </article>
     </section>
 
     <!-- contact me section -->
-    <section contact_me>
-        <h1>Contact Me</h1>
-        <ul>
-            <li>555-555-5555</li>
-            <li><a href="https://www.yahoo.com">Email</a></li>
-            <li><a href="https://github.com/BenjaminCottrell/">GitHub</a></li>
-            <li><a href="https://www.discord.com">Discord</a></li>
-            <li><a href="https://www.twitch.tv/cheeselightsaber">Twitch</a></li>
-        </ul>
-
+    <section>
+      <aside id="contactMe">
+        <h2>Contact Me</h2>
+      </aside>
+      <article>
+        <nav>
+            <a class="nav bnav" href="tel: 5555555555">555-555-5555</a>
+            <a class="nav bnav" href="mailto: bencottrell48@yahoo.com">bencottrell48@yahoo.com</a>
+            <a class="nav bnav" href="https://github.com/BenjaminCottrell/">GitHub</a>
+            <a class="nav bnav" href="https://www.discord.com">Discord</a>
+            <a class="nav bnav" href="https://www.twitch.tv/cheeselightsaber">Twitch</a>
+        </nav>
+      </article>  
     </section>
   </main>
 </body>
