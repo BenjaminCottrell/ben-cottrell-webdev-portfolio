@@ -1,3 +1,46 @@
+/* /////////////////////////////////////// */
+/* root implemented for recurring colors throughout */
+
+:root {
+    /* Color Scheme */
+    --primary: #0E19B9;
+    --secondary: #01097D;
+    --tertiary: #69FF04;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* //////////////////////////////////////// */
+
+body {
+    Font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: white;
+}
+
+header {
+    padding: 8px;
+    padding-left: 0px;
+    background: var(--secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600
+    text-align: right;
+    color: var(--primary);
+}
+
 section work {
     display: flex;
     flex-flow: column wrap;
